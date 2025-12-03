@@ -1,1 +1,3 @@
 https://github.com/Daardev/Calcular-promedio.git
+Pages
+https://daardev.github.io/Calcular-promedio/

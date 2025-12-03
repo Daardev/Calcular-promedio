@@ -17,7 +17,7 @@ function promedio() {
     !isNaN(nota3) && nota3 >=0 && nota3 <= 7) {
     let resultado = (nota1 + nota2 + nota3) / 3;
 
-    if (resultado > 6) {
+    if (resultado >= 6) {
       mensaje.style.color = "blue";
       mensaje.textContent = `¡Excelente!Tienes promedio ${resultado.toFixed(1)}.`;
       app.append(mensaje);
